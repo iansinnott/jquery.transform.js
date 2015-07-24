@@ -16,7 +16,8 @@
  * Send me music http://www.amazon.co.uk/wishlist/HNTU0468LQON
  *
  */
-(function( $, window, document, Math, undefined ) {
+
+module.exports = function( $ ) {
 
 /*
  * Feature tests and global variables
@@ -105,7 +106,7 @@ if ( supportProperty && supportProperty != _transform ) {
 	else if ( supportProperty == "Webkit" + suffix && support3dTransform ) {
 		propertyHook = {
 			set: function( elem, value ) {
-				elem.style[supportProperty] = 
+				elem.style[supportProperty] =
 					value.replace();
 			}
 		}
@@ -548,4 +549,4 @@ $.transform = {
 	centerOrigin: "margin"
 };
 
-})( jQuery, window, document, Math );
+};

@@ -1,3 +1,11 @@
+# jquery.transform for NPM
+
+I forked this project in order to make it compatible with NPM and importing via `require` or `import` statements. Other than that, none of the functionality is changed.
+
+The original readme is below.
+
+---
+
 jquery.transform2d.js adds 2d transform capabilities to jQuery `css()` and `animate()` functions.
 
 [Demo](http://louisremi.github.com/jquery.transform.js/index.html)

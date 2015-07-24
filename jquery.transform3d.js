@@ -17,7 +17,7 @@
  * Send me music http://www.amazon.co.uk/wishlist/HNTU0468LQON
  *
  */
-(function( $, window, document ) {
+module.exports = function( $ ) {
 "use strict";
 
 var div = document.createElement("div"),
@@ -89,4 +89,4 @@ function leadingUppercase( word ) {
 	return word.slice(0,1).toUpperCase() + word.slice(1);
 }
 
-})( jQuery, window, document );
+};
